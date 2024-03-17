@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Niramit", sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.cuadrado {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/*inicio izquierda*/
+.izquierda {
+    background-color: rgb(7, 43, 55);
+    height: 100vh;
+    width: 50%;
+    padding: 3rem;
+}
+.arriba {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: bottom;
+    
+}
+.titulo {
+    font-size: 2em;
+    color: white;
+}
+.medio {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    vertical-align: bottom;
+}
+.cuadrado1 {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.cuadrado2 {
+    width: 100%;
+    height: 33%;
+    flex-direction: column;
+    align-items: left;
+}
+.cuadrado3 {
+    width: 100%;
+    height: 33%;
+    flex-direction: column;
+    align-items: left;
+}
+.info1 {
+    width: 40%;
+    height: 70%;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(7, 43, 55);
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+.info {
+    width: 80%;
+    height: 70%;
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(7, 43, 55);
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.abajo {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto {
+    height: 30%;
+    width: 80%;
+    color: white;
+    font-size: 0.7em;
+}
+.botonsus {
+    height: 20%;
+    width: 50%;
+    background-color: rgb(177, 177, 177);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 40px;
+}
+.iniciarsecion {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Iniciar {
+    color: white;
+    background-color: rgb(7, 43, 55);
+    border: none;
+
+}
+/*inicio derecha*/
+.derecha {
+    background-image: url(Fondo\ blur1_Mesa\ de\ trabajo\ 1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.derechap {
+    font-size: 2em;
+    color: white;
+}
+.login {
+        height: 5%;
+        width: 30%;
+        background-color: rgb(177, 177, 177);
+        color: white;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 40px;
+}
